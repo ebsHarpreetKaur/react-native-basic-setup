@@ -1,0 +1,16 @@
+-------------- for production build ----------------------
+1. eas configure or eas configure:android
+2. eas login
+3. to check wheteher you r logged in or not --> eas whoami
+4. eas build -p android --profile preview 
+5. install it
+
+-------------- for development build ----------------------
+1. eas configure or eas configure:android
+2. eas login
+3. to check wheteher you r logged in or not --> eas whoami
+4. eas build --profile development --platform android
+5. install it
+6. npx expo start --dev-client
+
+
